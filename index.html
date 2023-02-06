@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Coming Soon</title>
+</head>
+<body>
+  <div class="container">
+    <h1>WE'RE LAUNCHING SOON</h1>
+    <div class="countdown">
+      <div class="days"></div>
+      <div class="hours"></div>
+      <div class="minutes"></div>
+      <div class="seconds"></div>
+    </div>
+  </div>
+</body>
+</html>
+<style>
+  body {
+  background-image: linear-gradient(to right, #6e45e2, #88d3ce); /* Gradient background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #6e45e2;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+input[type="email"] {
+  width: 60%;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow: 2px 2px #6e45e2;
+  color: #fff;
+}
+
+input[type="submit"] {
+  width: 20%;
+  height: 50px;
+  font-size: 18px;
+  background-color: #6e45e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px #6e45e2;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.countdown div {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+  </style>
